@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    line-height: normal;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: normal;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-size: small;
+    line-height: normal;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+header {
+    height: 8vh;
+
+
+}
+
+.marca {
+    color: white;
+    font-size: 1.5rem;
+}
+
+main {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
+    width: 500px;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 6px;
+    margin: 30px;
+    padding: 10px;
+    transition-duration: 250ms;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    color: rgba(131, 88, 31, 0.875);
+}
+
+span {
+    color: grey;
+}
+
+footer {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+h5{
+    font-size: 0.9rem;
+}
+@media(min-width:768px) {
+    h5 {
+        font-size: 1.2rem;
+
+    }
+
+}
+@media(min-width:1440px) {
+    h5 {
+        font-size: 1.4rem;
+
+    }
+
+}
